@@ -1,3 +1,5 @@
+// Ejemplo de variables locales y globales en Arduino (realmente ejemplo de C)
+
 int  a=5;  // Globales
 int b=7;
 

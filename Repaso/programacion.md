@@ -284,7 +284,7 @@ Ejemplo: activaremos un led al pasar de determinado nivel de luz
 
 Ejemplo LDR Umbral 3 Leds
 
-![ldr](images/LDR_umbral.png)
+![ldr](imagenes/LDR_umbral.png)
 
 Ejemplo 2: Regular el nivel con un potenciometro.  Documentarlo.
 

@@ -6,8 +6,9 @@ pinMode(pinLedAmarillo,OUTPUT);
 Serial.begin(9600);
 }
 void loop() {
-int valor=analogRead(A0);
-  if ( valor < 300 )
+int valor=analogRead(A1);
+int umbral=analogRead(A0);
+  if ( valor <  umbral/2)
   {   // valor inferior a 300
       digitalWrite(pinLedVerde,HIGH);
       digitalWrite(pinLedRojo,LOW);
@@ -15,7 +16,7 @@ int valor=analogRead(A0);
       Serial.println("Valor Bajo");
   }
 
-  if( valor>600)
+  if( valor>umbral)
   {   // valor superior a 600
       digitalWrite(pintLedRojo,HIGH);
       digitalWrite(pinLedVerde,LOW);
@@ -23,7 +24,7 @@ int valor=analogRead(A0);
       Serial.println("Valor Alto");
   }
 
-  if( (valor>300) && (valor<600)        )
+  if( (valor>umbral/2) && (valor<umbral)        )
   {   // valor superior a 300 y menor a 600
       digitalWrite(pintLedRojo,LOW);
       digitalWrite(pinLedVerde,LOW);

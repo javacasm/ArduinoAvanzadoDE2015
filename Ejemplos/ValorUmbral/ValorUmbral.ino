@@ -18,7 +18,7 @@ int umbral=analogRead(A0);
 
   if( valor>umbral)
   {   // valor superior a 600
-      digitalWrite(pintLedRojo,HIGH);
+      digitalWrite(pinLedRojo,HIGH);
       digitalWrite(pinLedVerde,LOW);
       digitalWrite(pinLedAmarillo,LOW);
       Serial.println("Valor Alto");
@@ -26,7 +26,7 @@ int umbral=analogRead(A0);
 
   if( (valor>umbral/2) && (valor<umbral)        )
   {   // valor superior a 300 y menor a 600
-      digitalWrite(pintLedRojo,LOW);
+      digitalWrite(pinLedRojo,LOW);
       digitalWrite(pinLedVerde,LOW);
       digitalWrite(pinLedAmarillo,HIGH);
       Serial.println("Valor Medio");

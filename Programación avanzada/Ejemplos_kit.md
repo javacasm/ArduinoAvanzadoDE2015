@@ -131,3 +131,6 @@ Vemos que hay muchos bloque que se repiten, por lo que para facilitarlo definire
 
 
 [pinout detallado de las placas](http://www.pighixxx.com/test/pinoutspg/boards/)
+
+![Uno](../images/ARDUINO_UNO_pinout.png)
+![Mega](../images/mega_pinout.png)

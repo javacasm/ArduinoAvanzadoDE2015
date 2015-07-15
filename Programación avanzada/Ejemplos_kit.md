@@ -10,8 +10,6 @@
 
 ![CC](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
 
-
-
 ***
 
 <!-- background: #184bc6-->
@@ -127,3 +125,9 @@ Se añade un retardo para evitar que se detecten varias pulsaciones.
 
 Vemos que hay muchos bloque que se repiten, por lo que para facilitarlo definiremos funciones.
 
+* * * 
+
+## Vamos a rehacer el programa usando acceso directo a los puertos
+
+
+[pinout detallado de las placas](http://www.pighixxx.com/test/pinoutspg/boards/)

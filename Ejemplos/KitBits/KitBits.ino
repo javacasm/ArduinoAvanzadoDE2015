@@ -16,28 +16,17 @@ void loop() {
   PORTB=0;
   PORTD=B00010000;
   for(int i=1;i<4;i++)
-  {
-    delay(PAUSA);
-    PORTD=PORTD<<1;
-  }
-  delay(PAUSA);
-  PORTD=0;
+  { delay(PAUSA); PORTD=PORTD<<1; }
+  delay(PAUSA);   PORTD=0;
   PORTB=B00000001;
   for(int i=1;i<6;i++)
-  { delay(PAUSA); 
-    PORTB=PORTB<<1; // PORT*=2;
-  }
+  { delay(PAUSA); PORTB=PORTB<<1; }
 
-  
   for(int i=1;i<6;i++)
-  { PORTB=PORTB>>1;
-    delay(PAUSA);}
+  { PORTB=PORTB>>1; delay(PAUSA);}
   PORTB=0;
   for(int i=1;i<4;i++)
-  {
-    delay(PAUSA);
-    PORTD=PORTD>>1;
-  }
+  { delay(PAUSA);  PORTD=PORTD>>1; }
   delay(PAUSA);
   PORTD=0;
 }

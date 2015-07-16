@@ -2,10 +2,10 @@
 # Proyecto: termostato configurable y que activa un relé
 
 [Proyecto 1](https://arduinolab.wordpress.com/)
-![proyecto](imagenes/arduino-humidity-and-temperature-monitor_bb.jpg)
+![proyecto](https://raw.githubusercontent.com/javacasm/CursosPresenciales/master/Basico/imagenes/arduino-humidity-and-temperature-monitor_bb.jpg)
 
 [Proyecto 2](http://www.electroschematics.com/8998/arduino-temperature-controlled-relay/)
-![proyecto2](imagenes/arduino-lcd-lm35-550x309.jpg)
+![proyecto2](https://raw.githubusercontent.com/javacasm/CursosPresenciales/master/Basico/imagenes/arduino-lcd-lm35-550x309.jpg)
 
 ## Veamos los componentes:
 

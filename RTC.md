@@ -17,7 +17,7 @@
 
 ![rtc](http://i1211.photobucket.com/albums/cc426/CindyKuai/Arduino/RTC%20module/5E947528.jpg)
 
-La [librería DS1302](http://playground.arduino.cc/uploads/Main/DS1302RTC.zip:
+La [librería DS1302](http://playground.arduino.cc/uploads/Main/DS1302RTC.zip) :
 
 1. Real Time Clock read/write (8 bytes)
 2. Battery backed RAM read/write (31 bytes)
